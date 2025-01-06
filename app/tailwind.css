@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --darkBlue: 210 55 23;
+  --mediumBlue: 210 45 54;
+  --lightBlue: 210 50 79;
+  --glodenYellow: 45 80 60;
+  --alertRed: 0 72 58;
+  --successGreen: 120 61 50;
+}
+
 html,
 body {
   @apply bg-white dark:bg-gray-950;

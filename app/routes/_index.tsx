@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import { text } from "node:stream/consumers";
 
 export const meta: MetaFunction = () => {
   return [
@@ -135,4 +136,8 @@ const resources = [
       </svg>
     ),
   },
+  {
+    href: "http://localhost:5173/login",
+    text: "Login"
+  }
 ];

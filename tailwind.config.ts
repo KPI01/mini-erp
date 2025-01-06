@@ -16,6 +16,14 @@ export default {
           "Noto Color Emoji",
         ],
       },
+      colors: {
+        darkBlue: 'hsl(var(--darkBlue))',
+        mediumBlue: 'hsl(var(--mediumBlue))',
+        lightBlue: 'hsl(var(--lightBlue))',
+        goldenYellow: 'hsl(var(--goldenYellow))',
+        alertRed: 'hsl(var(--alertRed))',
+        successGreen: 'hsl(var(--successGreen))',  
+      }
     },
   },
   plugins: [],
